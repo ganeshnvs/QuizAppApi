@@ -1,0 +1,79 @@
+{
+    "recruitmentStatuses": [
+        {
+            "id": 8,
+            "name": "Identified",
+            "displayOrder": 1,
+            "count": 1,
+            "description": "HCP Patient Identified",
+            "restrictedTo": [],
+            "actionLabel": "IDENTIFIED",
+            "pieChartLabel": "Identified",
+            "pieChartColorCode": "#71BEDB"
+        },
+        {
+            "id": 9,
+            "name": "Referred",
+            "displayOrder": 2,
+            "count": 74,
+            "description": "HCP Patient Referred",
+            "restrictedTo": [
+                8,
+                10
+            ],
+            "actionLabel": "REFER",
+            "pieChartLabel": "Referred",
+            "pieChartColorCode": "#FAA75A"
+        },
+        {
+            "id": 10,
+            "name": "Not Eligible",
+            "displayOrder": 3,
+            "count": 35,
+            "description": "HCP Patient Not Eligible/Rejected",
+            "restrictedTo": [
+                9
+            ],
+            "actionLabel": "NOT ELIGIBLE",
+            "pieChartLabel": "Not Eligible",
+            "pieChartColorCode": "#E3E3E3"
+        }
+    ],
+    "totalPatients": 0,
+    "patientsConsidered": 110,
+    "referralNotesSuggestions": [
+        {
+            "id": 1,
+            "name": "visually chalanged",
+            "notes": "Patient is visually challenged, please contact by phone only.",
+            "diseaseId": 1
+        },
+        {
+            "id": 1,
+            "name": "visually chalanged",
+            "notes": "Patient is visually challenged, please contact by phone only.",
+            "diseaseId": 2
+        },
+        {
+            "id": 2,
+            "name": "mail contact",
+            "notes": "Please use mail contact only",
+            "diseaseId": 1
+        },
+        {
+            "id": 2,
+            "name": "mail contact",
+            "notes": "Please use mail contact only",
+            "diseaseId": 2
+        }
+    ],
+    "referralEmailTemplate": "I  am writing to let you know that our practice has referred you to InformedDNA, a leading genetic counseling service that partners with patients to assess genetic testing needs. Our practice is participating in a program that enables us to provide free genetic counseling and testing to patients that are referred to InformedDNA. InformedDNA may reach out to you with more information and to assess your interest in genetic counseling. Note that InformedDNA will not share your information with any outside entity without your express permission.\n\nWe believe genetic counseling and testing through InformedDNA may open up opportunities for you to access novel ophthalmic treatment options for your condition. We hope you take advantage of this unique opportunity!\n\nBest,",
+    "siteTypeId": 2,
+    "studyName": "Genetic screening program for X-linked retinitis pigmentosa, Achromatopsia A and Achromatopsia B",
+    "totalPatientsLabel": "Total Practice Patients",
+    "patientsConsideredLabel": "Total Patients Considered for Trial",
+    "deadline": "",
+    "lastSystemUpdate": "2017-08-18",
+    "recruitmentTarget": 900,
+    "studyShortName": "Inherited Retinal Dystrophy Genetic Screening"
+}
