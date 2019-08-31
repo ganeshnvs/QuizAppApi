@@ -1,0 +1,222 @@
+[
+  {
+    "id":1,
+    "question": "When does Exceptions in Java arises in code sequence?",
+    "category": "exception_handling",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Run Time", "Compilation Time", "Can occur any time","None of the above"]
+    }
+  },
+  {
+    "id":2,
+    "question": "Which of these keywords is not a part of exception handling?",
+    "category": "exception_handling",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["try", "finally", "thrown", "catch"]
+    }
+  },
+  {
+    "id":3,
+    "question": "Which of these keywords must be used to monitor for exceptions?",
+    "category": "exception_handling",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["try", "finally", "throw", "catch"]
+    }
+  },
+  {
+    "id":5,
+    "question": "Which of these keywords is used to manually throw an exception?",
+    "category": "exception_handling",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["try", "finally", "throw", "catch"]
+    }
+  },
+  {
+    "id":6,
+    "question": "Which of the following is not OOPS concept in Java?",
+    "category": "OOPS",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Inheritance", "Encaptulation", "Polymorphism", "Compilation"]
+    }
+  },
+  {
+    "id":7,
+    "question": "Which of the following is a type of polymorphism in Java?",
+    "category": "OOPS",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Compile time polymorphism", "Excution time polymorphism", "Multiple polymorphism", "Multilevel polymorphism"]
+    }
+  },
+  {
+    "id":8,
+    "question": "When does method overloading is determined?",
+    "category": "OOPS",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["At runtime", "At compile time", "At coding time", "At execution time"]
+    }
+  },
+  {
+    "id":9,
+    "question": "Which of these handles the exception when no catch is used?",
+    "category": "exception_handling",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Default handler", "finally", "throw handler", "Java runtime exception"]
+    }
+  },
+  {
+    "id":10,
+    "question": "Which concept of Java is a way of converting real world objects in terms of class?",
+    "category": "OOPS",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"]
+    }
+  },
+  {
+    "id":11,
+    "question": "Which concept of Java is achieved by combining methods and attribute into a class?",
+    "category": "OOPS",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"]
+    }
+  },
+  {
+    "id":12,
+    "question": "What is it called if an object has its own lifecycle and there is no owner?",
+    "category": "OOPS",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Aggregation", "Composition", "Encapsulation", "Association"]
+    }
+  },
+  {
+    "id":13,
+    "question": "What is it called where child object gets killed if parent object is killed?",
+    "category": "OOPS",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Aggregation","Composition", "Encapsulation", "Association"]
+    }
+  },
+  {
+    "id":14,
+    "question": "Method overriding is combination of inheritance and polymorphism?",
+    "category": "OOPS",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["true","false"]
+    }
+  },
+  {
+    "id":15,
+    "question": "What is the name of the method used to start a thread execution?",
+    "category": "Threads",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["init();", "start();", "run();", "resume();"] 
+    }
+  },
+  {
+    "id":16,
+    "question": "Which cannot directly cause a thread to stop executing?",
+    "category": "Threads",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["Calling the SetPriority() method on a Thread object." ,"Calling the wait() method on an object.",
+        "Calling notify() method on an object.", "Calling read() method on an InputStream object."]
+    }
+  },
+  {
+    "id":17,
+    "question": "Which of the following will directly stop the execution of a Thread?",
+    "category": "Threads",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["wait()", "notify()", "notifyall()", "exits synchronized code"]
+    }
+  },
+  {
+    "id":18,
+    "question": "Which will contain the body of the thread?",
+    "category": "Threads",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["run();", "start();", "stop();","main();"]
+    }
+  },
+  {
+    "id":19,
+    "question": "Which method registers a thread in a thread scheduler?",
+    "category": "Threads",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["run();", "construct();", "start();", "register();"]
+    }
+  },
+  {
+    "id":20,
+    "question": "Which of the following component of HTTP request is used to indicate HTTP version?",
+    "category": "REST",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["VERB","URI", "HTTP Version", "Request Header"]
+    }
+  },
+  {
+    "id":21,
+    "question":
+      "Which of the following HTTP method should be used to get status of method availability in RESTful web service?",
+    "category": "REST",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["GET", "HEAD", "PUT", "OPTIONS"]
+    }
+  },
+  {
+    "id":22,
+    "question":
+      "Which of the following HTTP Status code means NO CONTENT, when response body is empty for example, a DELETE request?",
+    "category": "REST",
+    "questionType": {
+      "type": "single_choice",
+      "options": [200, 201, 204, 304]
+    }
+  },
+  {
+    "id":23,
+    "question": "Which of the following HTTP Status code means CONFLICT, states conflict situation while executing the method for example, adding duplicate entry?",
+    "category": "REST",
+    "questionType": {
+      "type": "single_choice",
+      "options": [400, 401, 404, 409]
+    }
+  },
+  {
+    "id":24,
+    "question": "RESTful web services use HTTP methods to implement the concept of REST architecture.",
+    "category": "REST",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["true", "false"]
+    }
+  },
+  {
+    "id":25,
+    "question":
+      "GET opearations should be readonly.",
+    "category": "REST",
+    "questionType": {
+      "type": "single_choice",
+      "options": ["true", "false"]
+    }
+  }
+]

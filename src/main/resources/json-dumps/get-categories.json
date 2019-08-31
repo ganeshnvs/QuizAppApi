@@ -1,0 +1,18 @@
+[
+  {
+    "id":1,
+    "categoryName": "exception_handling"
+  },
+  { 
+    "id":2,
+    "categoryName": "OOPS"
+  },
+  {
+    "id":3,
+    "categoryName": "Threads"
+  },
+  {
+    "id":4,
+    "categoryName": "REST"
+  }
+]

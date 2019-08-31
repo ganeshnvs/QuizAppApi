@@ -24,10 +24,11 @@ public class QuizAppController {
             StringBuilder sb = new StringBuilder();
             sb.append(request.getMethod().toLowerCase());
             sb.append('-');
-            sb.append(api.substring(4));
+            //sb.append(api.substring(4));
+            sb.append(api);
             String jsonFile = sb.toString();
-            Integer statusCode = Integer.valueOf(api.substring(0,3));
-            String fileName = "json-dumps/"+ statusCode + "/" + jsonFile + ".json";
+            //Integer statusCode = Integer.valueOf(api.substring(0,3));
+            String fileName = "json-dumps/" + jsonFile + ".json";
             logger.info("Filename detected = " + fileName);
             InputStream is = null;
             ClassPathResource cr = new ClassPathResource(fileName);
@@ -38,7 +39,7 @@ public class QuizAppController {
 
             if(is != null){
                 Object o = new ObjectMapper().readValue(is, Object.class);
-                return ResponseEntity.status(HttpStatus.valueOf(statusCode)).body(o);
+                return ResponseEntity.status(HttpStatus.valueOf(200)).body(o);
             }
 
         }catch (Exception e) {
